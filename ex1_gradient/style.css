@@ -1,0 +1,25 @@
+div {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/* Para fazer degradê é necessário utiliar  background-image */
+/* Em linear-gradient (direção - cor - cor - cor - ... ) */
+#ex1 {
+    background-image: linear-gradient(to left, #C0DDFA, #F2FAA7, #FA958E);
+}
+#ex2 {
+    background-image: linear-gradient(90deg, #FAB368, #8850FA, #6440AD);
+}
+
+/* Em radial-gradient ("circle" - cor - cor - cor - ... ) */
+#ex3 {
+    background-image: radial-gradient(circle, #3747AD, #FA7748, #95FA50);
+}
+
+/*Pode-se também definir a porcentagem de cada cor*/
+#ex4 {
+    background-image: linear-gradient(to bottom, #BAF5CC, #F5C4AF, #A2D3F5 60%);
+}
