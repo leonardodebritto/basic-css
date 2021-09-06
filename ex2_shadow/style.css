@@ -1,0 +1,26 @@
+body {
+    background-image: radial-gradient(circle, #F2EEB3, #F2D64B);
+}
+
+#box1 {
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+    background-color: #979DA6;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    /*5px para sombra na direita*/
+    /*5px para sombra embaixo*/
+    /*15px de espalhamento da sombra*/
+    /*Cor da sombra com um pouco de transparência*/
+    box-shadow: 5px 5px 15px #96936fc5;
+}
+
+h1 {
+    background-color: #68788C;
+    padding: 5px;
+    border-radius: 10px;
+    /*Também é possível colocar sombras nos textos*/
+    text-shadow: 8px 8px 8px #313942;
+}
