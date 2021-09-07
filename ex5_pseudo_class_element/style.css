@@ -1,0 +1,48 @@
+body {
+    background-color:bisque;
+}
+
+/**********************PSEUDO CLASSE EXEMPLO 1***********************/
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* Pseudo-classe CSS */
+/* especifica um estado especial do elemento */
+.box:hover {
+    background-color: cadetblue;
+}
+
+/************************PSEUDO CLASSE EXEMPLO 2***********************/
+/* Escondendo elementos e só mostrando quando em um estado especifico */
+
+.box2 {
+    background-color:chocolate;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div > span {
+    display: none;
+}
+
+div:hover > span {
+    display: block;
+}
+
+/************************PSEUDO ELEMENTO EXEMPLO 1**********************/
+/* Escondendo elementos e só mostrando quando em um estado especifico */
+
+p::before {
+    content: 'PSEUDO ELEMENT BEFORE ';
+    background-color: cornflowerblue;
+
+}
+p::after {
+    content: ' PSEUDO ELEMENT AFTER';
+    background-color: cornflowerblue;
+}
