@@ -1,0 +1,23 @@
+/* Modelo de caixa: */
+div {
+    height: 500px;
+    width: 500px;
+    background-color: darkorchid;
+
+    padding: 10px;
+    margin: auto;
+
+    /*
+    border-width: 15px;
+    border-style: solid;
+    border-color: gold;
+    */
+    border: 15px solid gold;
+
+    /*
+    outline-width: 10px;
+    outline-style: dashed ;
+    outline-color: navy;
+    */
+    outline: 10px dashed navy;
+}
