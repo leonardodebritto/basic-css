@@ -1,0 +1,46 @@
+/*Importação da fonte Roboto do ggogle fonts - o @import seve deve estar no inicio da folha css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* CSS Web Safe Font Combinations - para veras combinações mais seguras de fontes */
+
+/*************************************** 
+Medidas absolutas:
+cm - centímetros 
+mm - milímetros 
+in - polegadas 
+px - pixel 
+pt - ponto (não recomendao para telas)
+pc - paica (não recomendado para telas)
+*****************************************/ 
+
+/*******************************************
+Medidas relativas:
+em - relativa ao tamanho da letra m de uma fonte
+ex - relativo ao tamnaho da letra x de uma fonte
+rem - relativo ao tamanho da letra m da fonte root que esta configurada no body
+vw (view width) - relativo a largura da view da tela
+vh (view height - relativo a altura da view da tela
+% - tamanho definido em porcentagem
+************************************************/
+
+/********************************************/
+/* O W3C recomenda o uso do "px" e "em" */
+/* Na maioria dos navegadores o tamanho de fonte padrão é de 16px */
+/* Geralmente 16px = 1em */
+/********************************************/
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; /*Vai de 100 a 900, mas nem toda fonte possui todos os valores*/
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;    
+}
+
+/* Pode ser feito de maneira simplificada (short-haad) */
+/* font-style -> font-weight -> font-size -> fontfamily (precisa ser nessa ordem) */
+
+h1 {
+    font: italic, 500, 3em, Arial, Helvetica, sans-serif;
+}
